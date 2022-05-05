@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: orderservice #服务名称
+  profiles:
+    active: dev #开发环境
+  cloud:
+    nacos:
+      server-addr: nacos:8848
+      config:
+        file-extension: yaml #文件名后缀
